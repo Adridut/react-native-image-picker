@@ -4,17 +4,17 @@ const { NativeModules } = require('react-native');
 const { ImagePickerManager } = NativeModules;
 
 const DEFAULT_OPTIONS = {
-  title: 'Select a Photo',
-  cancelButtonTitle: 'Cancel',
-  takePhotoButtonTitle: 'Take Photo…',
-  chooseFromLibraryButtonTitle: 'Choose from Library…',
+  title: 'Foto wãhlen',
+  cancelButtonTitle: 'Abbrechen',
+  takePhotoButtonTitle: 'Foto aufnehmen…',
+  chooseFromLibraryButtonTitle: 'Foto hochladen…',
   quality: 1.0,
   allowsEditing: false,
   permissionDenied: {
-    title: 'Permission denied',
-    text: 'To be able to take pictures with your camera and choose images from your library.',
-    reTryTitle: 're-try',
-    okTitle: 'I\'m sure',
+    title: 'Zugriff untersagt',
+    text: 'Du hast JobNinja den Zugriff auf Deine Kamera untersagt.',
+    reTryTitle: 'Wiederholen',
+    okTitle: 'OK',
   }
 };
 
